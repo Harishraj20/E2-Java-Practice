@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>JDBCTask3</artifactId>
+  <artifactId>JDBC-Task4</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -42,7 +42,7 @@
   </dependencies>
 
   <build>
-    <finalName>JDBCTask3</finalName>
+    <finalName>JDBC-Task4</finalName>
     <pluginManagement>
       <plugins>
         <plugin>

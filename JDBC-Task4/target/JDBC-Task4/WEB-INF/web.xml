@@ -1,0 +1,42 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <welcome-file-list>
+      <welcome-file>index.html</welcome-file> 
+  </welcome-file-list>
+
+  <servlet> 
+      <servlet-name>DisplayServlet</servlet-name> 
+      <servlet-class>com.example.Servlets.DisplayServlet</servlet-class> 
+  </servlet> 
+  
+  <servlet-mapping> 
+      <servlet-name>DisplayServlet</servlet-name> 
+      <url-pattern>/DataServlet</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>DeleteServlet</servlet-name>
+      <servlet-class>com.example.Servlets.DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>DeleteServlet</servlet-name>
+      <url-pattern>/DeleteProductServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+      <servlet-name>SortServlet</servlet-name>
+      <servlet-class>com.example.Servlets.SortServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>SortServlet</servlet-name>
+      <url-pattern>/SortServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
